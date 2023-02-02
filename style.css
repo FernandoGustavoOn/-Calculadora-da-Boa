@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+body{
+    background-color: rgb(27, 27, 27);
+    background-image: url(https://img.cancaonova.com/cnimages/canais/uploads/sites/6/2020/08/formacao_voce-esta-disposto-a-abrir-mao-da-sua-vontade.jpg);
+    background-position: center;
+}
+header, footer{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+h1{
+    color: black;
+}
+main{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+}
+.area1{
+    /* background-color: rgb(37, 68, 68); */
+    
+    
+    display: flex;
+    justify-content: center;
+}
+.area2{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(140, 148, 148);
+    text-align: center;
+    max-width: 250px;
+    border-radius: 20px;
+    
+}
+.area3{
+    background-color: cornflowerblue;
+    border: 2px solid rgb(5, 46, 107);
+    height: 390px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    border-radius: 40px;
+    padding: 20px;
+}
+input{
+    max-width: 80px;
+    max-height: 35px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(100, 123, 128);
+}
+h5{
+    width: 100%;
+    border: 1px solid black;
+}
+.operacao{
+    border: 2px solid black;
+    display: block;
+    justify-items: center;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(100, 123, 128);
+    padding-bottom: 8px;
+    margin-top: 5px;
+}
+button{
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 25px;
+    background-color: lightsteelblue;
+}
+button:active {
+    transform: scale(0.98);
+}
+button:hover{
+    background-color: dimgray;
+}
+.resultado{
+    font-size: 25px;
+}
+footer{
+    font-size: 25px;
+    width: 100%;
+}
+.credito:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 30%;
+}
